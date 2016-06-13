@@ -15,7 +15,7 @@ When you are building web applications, you may need to minify your JavaScript f
 
 # BOWER
 
-Add .bowerrc
+Add bowerrc
 ```bower init (cmd only?)```
 ```bower install PACKAGE --save```
 
