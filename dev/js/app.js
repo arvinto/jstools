@@ -9,7 +9,13 @@ requirejs.config({
     paths: {
         jquery: '../bower_components/jquery/dist/jquery.min',
         bootstrap: '../bower_components/bootstrap/dist/js/bootstrap.min'
-    }
+    },
+    //Tells require that jquery is needed by bootstrap
+    shim: {
+        bootstrap: {
+            deps: ['jquery']
+        },
+      },
 });
 
 // // Start the main app logic.
