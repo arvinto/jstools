@@ -1,0 +1,24 @@
+{
+  "name": "jstools",
+  "description": "JS Tools training",
+  "main": "index.js",
+  "authors": [
+    "arvinto"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/arvinto/jstools",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "requirejs": "~2.2.0"
+  }
+}

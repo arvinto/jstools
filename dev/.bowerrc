@@ -1,0 +1,7 @@
+{
+  "registry": "http://wulf-bower.china.nsn-net.net/" ,
+  "timeout": 300000,
+  "proxy": "http://10.144.1.10:8080",
+  "https-proxy": "http://10.144.1.10:8080",
+  "no-proxy": "wulf-bower.china.nsn-net.net"
+}

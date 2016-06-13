@@ -1,0 +1,18 @@
+{
+  "name": "jstools",
+  "version": "1.0.0",
+  "description": "JS Tools training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/arvinto/jstools"
+  },
+  "author": "arvinto",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}
