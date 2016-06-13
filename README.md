@@ -5,24 +5,24 @@ Javascript Tools Training
 # NPM
 
 NPM is the package manager used by Node.js applications - you can find a ton of modules here, so you don't have to reinvent the wheel. It is like Maven for Java or Composer for PHP.
-npm init
+```npm init```
 Dependencies
-npm install --save
+```npm install --save```
 Dev Dependencies
-npm install --save-dev
+```npm install --save-dev```
 
 When you are building web applications, you may need to minify your JavaScript files, concatenating CSS files and so on. The modules that will do it will be only ran during the building of the assets, so the running application doesn't need them.
 
 # BOWER
 
-.bowerrc
-bower init (cmd only?)
-bower install PACKAGE --save
+```.bowerrc```
+```bower init (cmd only?)```
+```bower install PACKAGE --save```
 
 
 # REQUIRE JS
 
-requirejs.config({
+```requirejs.config({
     //By default load any module IDs from js/lib
     baseUrl: 'js/',
     //except, if the module ID starts with "app",
@@ -35,7 +35,8 @@ requirejs.config({
         bootstrap: '../bower_components/bootstrap/dist/js/bootstrap.min'
     }
 });
-
+```
+```
 <script data-main="js/app.js" src="bower_components/requirejs/require.js"></script>
 or
 <script src="bower_components/requirejs/require.js"></script>
@@ -43,3 +44,4 @@ or
 
 then
 	  requirejs(['jquery', 'bootstrap', 'sample']);
+```
