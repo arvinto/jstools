@@ -15,7 +15,7 @@ When you are building web applications, you may need to minify your JavaScript f
 
 # BOWER
 
-```.bowerrc```
+Add .bowerrc
 ```bower init (cmd only?)```
 ```bower install PACKAGE --save```
 
@@ -45,3 +45,5 @@ or
 then
 	  requirejs(['jquery', 'bootstrap', 'sample']);
 ```
+
+AMD approach for require: http://javascriptplayground.com/blog/2012/07/requirejs-amd-tutorial-introduction/
